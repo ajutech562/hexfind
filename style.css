@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f4f6;
+    color: #222;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company {
+    text-align: center;
+    width: 35%;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #0a2540;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto 10px;
+    color: #0a2540;
+}
+
+.company h1 {
+    letter-spacing: 2px;
+}
+
+.company p {
+    font-size: 14px;
+    color: #555;
+}
+
+.line {
+    width: 1px;
+    height: 180px;
+    background-color: #bbbbbb;
+}
+
+.details {
+    width: 55%;
+}
+
+.details h3 {
+    margin-bottom: 4px;
+}
+
+.details span {
+    font-size: 14px;
+    color: #555;
+}
+
+.details p {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+
+.quote {
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+
+.services {
+    background-color: #061f3a;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services h2 span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.services ul {
+    max-width: 500px;
+    margin: auto;
+}
+
+.services li {
+    margin-bottom: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .company,
+    .details {
+        width: 100%;
+    }
+
+    .details {
+        margin-top: 20px;
+    }
+}
