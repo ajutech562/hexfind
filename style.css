@@ -1,6 +1,4 @@
-/* ========================
-   Global Reset
-======================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +15,7 @@ body {
   color: #fff;
 }
 
-/* ========================
-   Header
-======================== */
+
 header {
   position: fixed;
   top: 0;
@@ -50,9 +46,7 @@ nav a:hover {
   color: #00aaff;
 }
 
-/* ========================
-   Hero
-======================== */
+
 .hero {
   height: 100vh;
   background: linear-gradient(135deg, #000, #001f3f);
@@ -67,9 +61,7 @@ nav a:hover {
   font-size: 46px;
 }
 
-/* ========================
-   Sections
-======================== */
+
 section {
   padding: 90px 10%;
 }
@@ -80,16 +72,14 @@ h2 {
   color: #00aaff;
 }
 
-/* ========================
-   About
-======================== */
+
 .about-boxes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
 
-/* Card */
+
 .about-box {
   background: linear-gradient(145deg, #001f3f, #221c38);
   border-radius: 18px;
@@ -98,7 +88,7 @@ h2 {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Image */
+
 .about-box img {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -107,7 +97,7 @@ h2 {
   transition: transform 0.6s ease;
 }
 
-/* Text */
+
 .about-box h3 {
   margin-top: 15px;
   color: #00aaff;
@@ -119,7 +109,7 @@ h2 {
   font-size: 15px;
 }
 
-/* Hover Animations */
+
 .about-box:hover {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 15px 35px rgba(0, 170, 255, 0.25);
@@ -131,9 +121,7 @@ h2 {
 
 
 
-/* ========================
-   Why Choose Hexfind
-======================== */
+
 .why-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -162,22 +150,14 @@ h2 {
   transform: translateY(-8px);
 }
 
-/* ========================
-   Services
-======================== */
-/* ========================
-   Our Services
-======================== */
-/* ========================
-   Services Grid
-======================== */
+
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 × 2 layout */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 25px;
 }
 
-/* Service Button */
+
 .service-card {
   height: 200px;
   border-radius: 18px;
@@ -196,7 +176,7 @@ h2 {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Dark overlay */
+
 .service-card::before {
   content: "";
   position: absolute;
@@ -209,18 +189,16 @@ h2 {
   z-index: 1;
 }
 
-/* Hover effect */
+
+
 .service-card:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 20px 40px rgba(0, 170, 255, 0.3);
 }
 
-/* ========================
-   Background Images
-======================== */
-/* ========================
-   Services Section
-======================== */
+
+
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -243,7 +221,8 @@ h2 {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Dark overlay */
+
+
 .service-card::before {
   content: "";
   position: absolute;
@@ -268,15 +247,15 @@ h2 {
   line-height: 1.4;
 }
 
-/* Hover animation */
+
+
 .service-card:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 20px 40px rgba(0, 170, 255, 0.35);
 }
 
-/* ========================
-   Background Images
-======================== */
+
+
 .dm { background-image: url("https://images.unsplash.com/photo-1557838923-2985c318be48"); }
 .gd { background-image: url("https://images.unsplash.com/photo-1545235617-9465d2a55698"); }
 .wd { background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d"); }
@@ -287,9 +266,8 @@ h2 {
 .id { background-image: url("https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"); }
 
 
-/* ========================
-   How We Do It
-======================== */
+
+
 .process-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -318,9 +296,9 @@ h2 {
   transform: translateY(-8px);
 }
 
-/* ========================
-   Gallery Slider
-======================== */
+
+
+
 .gallery {
   text-align: center;
 }
@@ -350,7 +328,8 @@ h2 {
   transform: translateX(0);
 }
 
-/* Dots */
+
+
 .dots {
   margin-top: 20px;
 }
@@ -369,9 +348,8 @@ h2 {
   background: #00aaff;
 }
 
-/* ========================
-   Contact
-======================== */
+
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -407,18 +385,17 @@ h2 {
   cursor: pointer;
 }
 
-/* ========================
-   Footer
-======================== */
+
+
 footer {
   background: #000;
   padding: 20px;
   text-align: center;
 }
 
-/* ========================
-   Floating Buttons
-======================== */
+
+
+
 .mail-btn {
   position: fixed;
   left: 15px;
@@ -441,9 +418,8 @@ footer {
   cursor: pointer;
 }
 
-/* ========================
-   Reveal Animation
-======================== */
+
+
 .reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -455,9 +431,7 @@ footer {
   transform: translateY(0);
 }
 
-/* ========================
-   Mobile
-======================== */
+
 @media (max-width: 768px) {
   nav {
     display: none;
@@ -473,6 +447,17 @@ footer {
 
 
 .about-boxes {
-    grid-template-columns: 1fr; /* 1 per row on mobile */
+    grid-template-columns: 1fr; 
+  }
+}
+@media (max-width: 1024px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .service-grid {
+    grid-template-columns: 1fr; 
   }
 }
