@@ -220,7 +220,7 @@ h2 {
 }
 
 /* SERVICE BACKGROUNDS */
-.dm { background-image: url("photo-1557838923-2985c318be48.jpg"); }
+.dm { background-image: url("https://images.unsplash.com/photo-1557838923-2985c318be48"); }
 .gd { background-image: url("https://images.unsplash.com/photo-1545235617-9465d2a55698"); }
 .wd { background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d"); }
 .ad { background-image: url("https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"); }
@@ -420,3 +420,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
